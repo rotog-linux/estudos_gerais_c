@@ -14,7 +14,7 @@ void main(){
     int passo = 0;
     int total_passos = (n + 1) - m - 0;
 
-    for (int i = m; i <= 80; i++){
+    for (int i = m; i <= n; i++){
         valor += i;
         passo++;
 
