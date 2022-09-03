@@ -12,11 +12,14 @@ void main(){
     int m = 10;
     int valor = 0;
     int passo = 0;
+    int total_passos = (n + 1) - m - 0;
 
-    for (int i = 10; i <= 80; i++){
+    for (int i = m; i <= 80; i++){
         valor += i;
         passo++;
 
         printf("Passo: %d - Índice: %d - Valor: %d\n", passo, i, valor);
     }
+
+    printf("\nTotal de passos: %d\n", total_passos);
 }
