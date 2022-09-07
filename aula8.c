@@ -1,5 +1,7 @@
 /**
  * Algoritmos de ordenação: insertion sort
+ * Ele vai pegando os elementos menores que os anteriores e vai voltando e
+ * jogando eles até chegar no destino.
  */
 
 #include <stdio.h>
