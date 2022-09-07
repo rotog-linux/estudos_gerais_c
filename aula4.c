@@ -1,5 +1,5 @@
 /**
- * Função para calcular o fatorial (sem recursividade)
+ * Função para calcular o fatorial de forma iterativa (sem recursividade)
  */
 
 #include <stdio.h>

@@ -1,4 +1,7 @@
 // Potenciação
+// Recursividade usando a "cauda", ou seja, passando o valor que está sendo
+// calculado para outras instâncias da função recursiva
+// A última chamada da função já irá possuir o valor final
 
 #include <stdio.h>
 
