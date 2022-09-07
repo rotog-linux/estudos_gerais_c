@@ -1,7 +1,5 @@
 /**
- * Função para calcular o fatorial (exercitando recursividade)
- * 
- * **** Melhorar essa função, não está correta ****
+ * Função para calcular o fatorial (sem recursividade)
  */
 
 #include <stdio.h>
@@ -11,11 +9,18 @@ int fatorial(int numero){
         return(0);
     }
 
-    numero = numero * fatorial(numero - 1);
-    printf("%d\n", numero);
+    int i;
+    int resultado = 1;
+
+    for (i = numero; i > 1; i--){
+        resultado = resultado * i;
+    }
+
+    return resultado;
 }
 
 void main()
 {
-    fatorial(5);
+    int numero = 6;
+    printf("O fatorial de %d é: %d\n", numero, fatorial(numero));
 }
